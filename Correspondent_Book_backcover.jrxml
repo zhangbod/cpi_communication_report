@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.6.0.final using JasperReports Library version 6.6.0  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="typewriter_book_cover" pageWidth="595" pageHeight="842" whenNoDataType="AllSectionsNoDetail" columnWidth="595" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="c50b24eb-eb33-413f-8e75-e7e20a5341fd">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
+	<subDataset name="Dataset1" uuid="b58d2c35-bf4e-4c40-9755-0b7eaf2b541f">
+		<queryString>
+			<![CDATA[]]>
+		</queryString>
+	</subDataset>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<title>
+		<band height="763" splitType="Stretch">
+			<staticText>
+				<reportElement x="42" y="190" width="510" height="440" uuid="c4cc61d7-d92b-43bf-9f53-b12664859221"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Serif" size="21" isBold="true"/>
+				</textElement>
+				<text><![CDATA[中国船东互保协会
+China Shipowners Mutual Assurance Association
+China P&I Club
+
+中国上海市虹口区公平路18号7号楼中船保大厦5 - 7层
+5 - 7F, China P&I Centre, Building 7, 18 Gongping Road, Hongkou District,
+Shanghai, P. R. China
+邮政编码/Post Code: 200082
+电话/Tel：+86 21 350368888  传真/Fax：+86 32 65950217
+网址/Web：www.chinapandi.com
+]]></text>
+			</staticText>
+		</band>
+	</title>
+</jasperReport>

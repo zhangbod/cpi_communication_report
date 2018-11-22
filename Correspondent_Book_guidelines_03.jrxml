@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.6.0.final using JasperReports Library version 6.6.0  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Correspondent_Book_guidelines_02" pageWidth="595" pageHeight="842" whenNoDataType="AllSectionsNoDetail" columnWidth="495" leftMargin="50" rightMargin="50" topMargin="40" bottomMargin="40" uuid="d129ea41-335f-4f3d-a817-f2dbb7ada0f1">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<title>
+		<band height="726" splitType="Stretch">
+			<staticText>
+				<reportElement x="10" y="10" width="475" height="140" uuid="7449d8b1-e503-4b55-bf2f-130541115cf2"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[
+• The ship’s name and IMO number.
+• Description of the incident including the date and the port/place where the incident occurred.
+• The party requesting assistance and the nature of the assistance requested. 
+• Any steps taken by the correspondent.
+• The current status and proposed future action, including details of any deadline/time limits which the Member may be required to satisfy. 
+• Details of security demands and reasonableness thereof. 
+• Contact details for the correspondents and any service providers appointed.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="150" width="475" height="28" forecolor="#10A4E8" uuid="4c6f72e3-82c6-4c50-a57b-5b2dbefaa0d9"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[B) SUBSEQUENT REPORTS TO THE CLUB]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="178" width="475" height="230" uuid="47884d3c-abbf-4a5a-8613-d5336dbf9d2c"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[Communication by phone remains extremely important and can be a useful addition to email reporting. Surveyors, lawyers or other experts must be encouraged to give you, as correspondent, timely updates which add value for the Club and Member. Where possible, the correspondent should ensure that all information from these sources is channelled through them and that they control the case locally.
+
+In the initial period following an incident “no news is good news” does not apply and reports (including service providers’ reports) will be required on a frequent basis, including:
+• Details of the property damaged/person or persons injured etc (as applicable).
+• Cause of the incident.
+• Steps to be taken to protect the Member’s position, including measures to preserve the Member’s right of redress against third parties, including any time limits.
+• Claimed amount and any assessment of/material changes to quantum.
+• Current status of any negotiations with claimants or their representatives.
+• Any hearing dates.
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="408" width="475" height="48" forecolor="#10A4E8" uuid="eb1e9139-bbb2-4c94-b838-49dd048fc55f"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[5.APPOINTMENT OF LOCAL SURVEYORS OR OTHER THIRD PARTIES (SERVICE PROVIDERS)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="456" width="475" height="125" uuid="c7a2749c-d8d2-4fc0-970b-b2cb5312e2a9"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[Ideally the correspondent should obtain approval from the Club before any service provider is appointed. Where prior approval cannot be obtained, the correspondent may appoint the service provider to avoid delay but the Club must be notified at the earliest opportunity. The best service provider suitable for the task must be appointed, provided they are not conflicted, regardless of whether they are in-house or independent.
+
+If the Club sends an expert to attend, the correspondent should provide them with any assistance necessary, including promoting co-ordination with any attending local service providers.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="581" width="475" height="29" forecolor="#10A4E8" uuid="33301158-40a6-4437-991b-adb1a309a821"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[6. CLAIMS HANDLING]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="610" width="475" height="110" uuid="98566796-06de-49fd-bb19-3832c2cc2faa"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[Claims may be pursued locally or in another country because of contractual terms or by agreement between the parties. If a correspondent receives claims documents, they should seek instructions from the Club. The Club or Member may wish to handle the claim; alternatively, the correspondent may be authorized to handle the claim. If so, the correspondent should provide as soon as possible their opinion on the merits of the claim and best estimate of the overall claim and fee exposure. The best estimate should be updated as appropriate to assist the Club in setting a reserve. If a claimant starts legal proceedings, the Club should be advised immediately.]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageFooter>
+		<band height="35">
+			<staticText>
+				<reportElement x="10" y="15" width="474" height="20" uuid="c20921c4-a581-4410-a764-8dc422b6437b"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman"/>
+				</textElement>
+				<text><![CDATA[-3-]]></text>
+			</staticText>
+			<line>
+				<reportElement x="10" y="14" width="475" height="1" forecolor="#10A4E8" uuid="1cc686da-cbb9-4dc0-ba7d-40b4f3bec42a"/>
+			</line>
+		</band>
+	</pageFooter>
+</jasperReport>

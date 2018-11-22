@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.6.0.final using JasperReports Library version 6.6.0  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Correspondent_Book_guidelines" pageWidth="595" pageHeight="842" whenNoDataType="AllSectionsNoDetail" columnWidth="495" leftMargin="50" rightMargin="50" topMargin="40" bottomMargin="40" uuid="1d66371a-725f-4b69-aab5-78b9c80ac098">
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="732">
+			<staticText>
+				<reportElement x="10" y="20" width="475" height="36" forecolor="#10A4E8" uuid="e771c238-b0c2-4d7e-813b-92ebba670e98"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="19" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Guidelines for Correspondents]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="56" width="475" height="54" uuid="7989843a-f12e-4d5a-b33c-89f653e435f9"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[These guidelines provide the foundation for a common approach to the handling of incidents and promote a consistent response by all correspondents when instructed by China Shipowners Mutual Assurance Association, abbreviate China P&I Club.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="110" width="475" height="25" forecolor="#10A4E8" uuid="9edf0e3d-6a01-454b-8660-74c8c32136bd"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[1. LISTING OF CORRESPONDENTS]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="135" width="475" height="158" uuid="8ae0bc42-9d45-40b4-b107-d3835c704e27"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[The listing of a correspondent does not represent any kind of contractual or agency relationship between the correspondent and the Club, nor does it create any right to be included in any subsequent list. Correspondents are not agents for the Club and are not automatically authorized to accept service of any proceedings on behalf of the Club or any subsidiary or associated companies. The correspondent, although listed and named by the Club, will usually act for the shipowner/charterer whose ship is entered with the Club.
+
+Correspondents must be contactable 24 hours a day and they must keep the Club advised of changes to staff/office communications details. Correspondents should regularly check their entries on the Club’s website (www.chinapandi.com) to verify that the Club has the correct contact details.
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="293" width="474" height="25" forecolor="#10A4E8" uuid="258bc1c2-aa0e-4a7f-8ba2-a2b599feb0fb"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[2. GOVERNANCE]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="318" width="475" height="36" uuid="8d37c828-06a8-4c72-b442-8f4e43e08619"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[Correspondents must operate to the highest ethical standards and have appropriate systems and procedures in place.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="354" width="475" height="47" forecolor="#10A4E8" uuid="e1e4d6a3-cc8f-4cea-9f7d-e790fabffa2b"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[A) BRIBERY, MONEY LAUNDERING, SLAVERY AND HUMAN TRAFFICKING]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="401" width="475" height="114" uuid="142e2f36-978f-4124-b040-1b549b305a4c"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[Correspondents should have systems in place to ensure them and their subcontractors and service providers do not contravene anti money-laundering, anti-bribery and tax evasion legislation. Such systems should include procedures to identify their clients and ensure that transactions are legal. Financial transactions that are not in accordance with normal business practices may give rise to a criminal offence. In the meantime, correspondents should be aware that they must conform with the Club’s zero-tolerance position in respect of modern slavery and human trafficking, including compliance with any relevant legislation.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="515" width="475" height="23" forecolor="#10A4E8" uuid="6431c04d-a522-4af4-ac59-ae74b5a01337"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[B) SANCTIONS]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="538" width="475" height="192" uuid="90cf57f6-c67f-4b28-9ce5-abdb9e6a8018"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[Correspondents should be aware that sanctions and regulations imposed by a state, international organization or other competent authority, whether directly or indirectly, affects the assistance the Club can offer Members in countries subject to sanctions. In particular, the Club may not be able to assist Members in providing a letter of undertaking or bank guarantee to secure a claim.
+
+It is the correspondent’s responsibility to ensure that all third parties that they instruct or remit funds to are not listed as prescribed persons or organizations on any trade or economic sanctions lists, in particular, those published and maintained by the United Nations, the European Union and the United States.
+
+The situation on sanctions can change and the correspondent should contact the Club for specific advice.]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageFooter>
+		<band height="30">
+			<line>
+				<reportElement x="10" y="9" width="475" height="1" forecolor="#10A4E8" uuid="89229a9c-cb5a-44b3-852c-fceabd4ce6bf"/>
+			</line>
+			<staticText>
+				<reportElement x="10" y="10" width="474" height="20" uuid="c26e5562-5c60-4905-beb9-3405e95a4a8f"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman"/>
+				</textElement>
+				<text><![CDATA[-1-]]></text>
+			</staticText>
+		</band>
+	</pageFooter>
+</jasperReport>

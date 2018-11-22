@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.6.0.final using JasperReports Library version 6.6.0  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Correspondent_Book_guidelines_02" pageWidth="595" pageHeight="842" whenNoDataType="AllSectionsNoDetail" columnWidth="495" leftMargin="50" rightMargin="50" topMargin="40" bottomMargin="40" uuid="d129ea41-335f-4f3d-a817-f2dbb7ada0f1">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<title>
+		<band height="683" splitType="Stretch">
+			<staticText>
+				<reportElement x="10" y="20" width="475" height="26" forecolor="#10A4E8" uuid="4c6f72e3-82c6-4c50-a57b-5b2dbefaa0d9"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[A) TIME EXTENSION]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="46" width="475" height="23" uuid="47884d3c-abbf-4a5a-8613-d5336dbf9d2c"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[No time extension is to be granted to any party without authority from the Club or the Member.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="69" width="475" height="23" forecolor="#10A4E8" uuid="eb1e9139-bbb2-4c94-b838-49dd048fc55f"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[B) CLAIMS SETTLEMENT]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="92" width="475" height="95" uuid="c7a2749c-d8d2-4fc0-970b-b2cb5312e2a9"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[Correspondents should not enter into settlement negotiations or agree to any settlement proposal without authority. An agreed settlement must include a receipt and release document, approved by the Club in advance, and the cancellation and return of any guarantee.
+If the Member no longer exists, they will be unable to pay claims. Other than in death and personal injury matters, if no guarantee has been issued it is unlikely the Club will be able to assist further and the correspondent may be asked to close their file and submit a final invoice.
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="187" width="475" height="26" forecolor="#10A4E8" uuid="33301158-40a6-4437-991b-adb1a309a821"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[C) COURT PROCEEDINGS-ARBITRATION-MEDIATION]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="213" width="475" height="35" uuid="391c1fda-e23e-462c-8a1f-f095d390c36b"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[No claim is to be taken to court, arbitration or mediation without instructions from the Club and Member.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="248" width="475" height="26" forecolor="#10A4E8" uuid="54c3fcd3-b9c0-424d-90c0-cd1cd2209e1c"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[7. GUARANTEES]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="274" width="475" height="296" uuid="d600001a-3384-42a1-86fb-9bcbd02b9f25"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[The correspondent should inform the Club immediately if they receive a request for security and/or a threat of arrest or detention of the ship or another asset. In order to consider whether it is appropriate for the Club to provide security, the Club must be informed as soon as possible of the name of the beneficiary, the quantum and form of security requested.
+
+The provision of Club security is discretionary and depends on a number of factors, regardless of the guarantee amount or pressure from interested parties. The security may be provided directly to the claimant by the Club or, by agreement, via the correspondent.
+
+A correspondent must not agree to issue a letter of undertaking (LoU), or other form of security, without the approval of the Club. The Club will not authorize a guarantee to a sanctioned entity.
+
+The following forms of security may be considered in order of preference:
+1. LoU. The Club recognizes that this is not an option for all claimants in certain jurisdictions.
+2. Interim security to be replaced by a bank guarantee or bail bond within a specified time-frame.
+3. A bank guarantee or bail bond with no interim security.
+
+The Club does not provide anticipatory security or security for an unlimited amount. Club security only covers a Member’s legal liability and will be for a quantified claim amount, which should be referred to in the terms of the guarantee. It is preferable that the amount of the guarantee includes interest and costs.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="570" width="475" height="30" forecolor="#10A4E8" uuid="032632b4-d730-4331-ae45-e2f57d1f395a"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[8. FREIGHT，DEMURRAGE & DEFENCE COVER (FD&D)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="600" width="475" height="77" uuid="4840eb14-d6b1-4d16-9b02-e13bd53689dd"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[The Club offers a separate cover for their Members’ legal costs in defending or prosecuting certain types of claims. The involvement of the correspondent in FD&D matters will vary, and will often be minimal, as legal input is often necessary. The correspondent, whether legal or commercial, should determine the extent of Club cover and should not assume that any fees will be paid directly by the Club.]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageFooter>
+		<band height="34">
+			<staticText>
+				<reportElement x="10" y="10" width="474" height="20" uuid="4914f1ef-17d5-4007-8d40-5da33569a733"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman"/>
+				</textElement>
+				<text><![CDATA[-4-]]></text>
+			</staticText>
+			<line>
+				<reportElement x="10" y="9" width="475" height="1" forecolor="#10A4E8" uuid="fa5d6d04-6d5d-4d7c-9e83-1c23ae14daff"/>
+			</line>
+		</band>
+	</pageFooter>
+</jasperReport>

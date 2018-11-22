@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.6.0.final using JasperReports Library version 6.6.0  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Correspondent_Book_guidelines_02" pageWidth="595" pageHeight="842" whenNoDataType="AllSectionsNoDetail" columnWidth="495" leftMargin="50" rightMargin="50" topMargin="40" bottomMargin="40" uuid="d129ea41-335f-4f3d-a817-f2dbb7ada0f1">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<title>
+		<band height="736" splitType="Stretch">
+			<staticText>
+				<reportElement x="10" y="1" width="475" height="30" forecolor="#10A4E8" uuid="eb1e9139-bbb2-4c94-b838-49dd048fc55f"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[9. CONTINGENCY PLANNING]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="31" width="475" height="48" uuid="c7a2749c-d8d2-4fc0-970b-b2cb5312e2a9"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[The correspondent’s contingency plans should include a business continuity plan and a plan for handling large claims and major casualties. Their staff must be familiar with these plans and their roles within them. Plans should be regularly tested and updated.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="79" width="475" height="32" forecolor="#10A4E8" uuid="33301158-40a6-4437-991b-adb1a309a821"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[10. INVOICING]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="111" width="475" height="75" uuid="391c1fda-e23e-462c-8a1f-f095d390c36b"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[Correspondents should be familiar with the invoicing requirements of the Club.
+
+For Member’s own surveys, or matters not covered by the Club, it is the correspondent’s responsibility to make arrangements for the payment of fees and disbursements. The correspondent may request a payment in advance from the Member.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="186" width="475" height="25" forecolor="#10A4E8" uuid="54c3fcd3-b9c0-424d-90c0-cd1cd2209e1c"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[A) INVOICING INSTRUTIONS]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="211" width="475" height="88" uuid="d600001a-3384-42a1-86fb-9bcbd02b9f25"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[Correspondents should check with the Club who the invoice should be addressed to.
+Invoices should contain the Club’s and the correspondent’s references, together with the beneficiary’s banking details.
+Fees and disbursements should be shown separately. The fee calculation should show the hourly or daily rates and the time spent. Receipts or other evidence should be provided for disbursements. Correspondents should not settle any third party’s invoice without the authority of the Club.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="324" width="475" height="32" uuid="62665e74-c613-4218-9957-e85264beb822"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[The Club prefer to make electronic payment for invoices they pay directly. The beneficiary of the payment must match the person or company issuing the invoice.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="299" width="475" height="25" forecolor="#10A4E8" uuid="2d238720-0dff-4f85-957a-c85423252d07"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[B) PAYMENT INSTRUCTIONS]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="386" width="475" height="32" uuid="f83062ce-8655-41db-806a-c1d37a7ded02"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[To assist the Club in controlling costs, interim invoices (including those of service providers) should be submitted unless the Club decides otherwise.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="356" width="475" height="30" forecolor="#10A4E8" uuid="e5070644-9f73-43cb-aff9-090e1151d47f"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[C) INTERIM INVOICES]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="448" width="475" height="32" uuid="9cfad9f8-22ba-441a-99d2-b14410d73ba7"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[A final invoice, including any outstanding service providers’ costs, should be submitted as soon as a case has been concluded or when the involvement of the correspondent is no longer required.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="418" width="475" height="30" forecolor="#10A4E8" uuid="aa54e8cb-c66c-4f3e-83f1-3c229cace469"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[D) FINAL INVOICES]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="510" width="475" height="46" uuid="0c08cf97-386f-4921-9c7e-559ecde45419"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[Occasionally, clarification of invoices or items contained in them may be required. For invoices to be paid by the Club, in the event of a dispute between the Club and the correspondent, the Club will settle the undisputed portion of the invoice as quickly as possible.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="480" width="475" height="30" forecolor="#10A4E8" uuid="1da64e5d-3f18-477e-a9ec-4f3046fd8c71"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[E) INVOICES ENQUIRIES]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="584" width="475" height="50" uuid="fddce7b0-a0b5-4313-a7e2-947052ae5cbf"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[Correspondents are encouraged to advise the Club of general information relevant to ships trading within their local area. The Club may wish to include this information in the websites, apps and publications for the benefit of the Members.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="556" width="475" height="28" forecolor="#10A4E8" uuid="32dc6abd-0ca6-4bb8-ad27-51f2c6d68119"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[11. PROVISION OF GENERAL INFORMATION ON LOCAL MATTERS]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="634" width="475" height="28" forecolor="#10A4E8" uuid="75ff28f1-f7fc-4ba5-b1a7-4d7a04aa64ba"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[THE IMPORTANCE OF CORRESPONDENTS]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="662" width="475" height="74" uuid="446399e1-f731-41a6-8e1d-50deae930e20"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[As the local “eyes and ears” of the Club, correspondents perform a key role looking after the interests of the Club and her Members around the world. This updated version of the Guidelines has been prepared to enable correspondents to work closely together with the Club to continue to meet Members’ expectations for the delivery of the highest quality services in a rapidly changing world.]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageFooter>
+		<band height="26">
+			<staticText>
+				<reportElement x="10" y="6" width="474" height="20" uuid="fa4d016b-351a-43ba-b158-db1e4b382a0c"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman"/>
+				</textElement>
+				<text><![CDATA[-5-]]></text>
+			</staticText>
+			<line>
+				<reportElement x="10" y="5" width="475" height="1" forecolor="#10A4E8" uuid="92e2df13-c3b9-4232-8a96-d15ccf4fef5a"/>
+			</line>
+		</band>
+	</pageFooter>
+</jasperReport>

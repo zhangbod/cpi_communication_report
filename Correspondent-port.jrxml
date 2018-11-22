@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.6.0.final using JasperReports Library version 6.6.0  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Correspondent" pageWidth="523" pageHeight="250" columnWidth="523" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="eac7f807-b02f-449c-a7c4-d91bf689bd81">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="net.sf.jasperreports.print.create.bookmarks" value="true"/>
+	<style name="Title" forecolor="#FFFFFF" fontName="Serif" fontSize="26" isBold="true"/>
+	<style name="SubTitle" forecolor="#666666" fontName="Serif" fontSize="18"/>
+	<style name="Column header" forecolor="#666666" fontName="Serif" fontSize="12" isBold="true"/>
+	<style name="Detail" fontName="Serif" fontSize="12"/>
+	<parameter name="SUBREPORT_DIR" class="java.lang.String"/>
+	<parameter name="SUBREPORT_PARAMETER" class="java.util.Map"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="portName" class="java.lang.String"/>
+	<field name="correspondentBeans" class="java.util.List"/>
+	<detail>
+		<band height="52" splitType="Stretch">
+			<textField bookmarkLevel="2">
+				<reportElement mode="Transparent" x="0" y="1" width="500" height="20" forecolor="#10A4E8" uuid="39470d30-c499-47c1-9bab-0d0c28a03721"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{portName}]]></textFieldExpression>
+				<anchorNameExpression><![CDATA[$F{portName}]]></anchorNameExpression>
+			</textField>
+			<subreport>
+				<reportElement x="0" y="21" width="500" height="25" uuid="66fc4e05-79d8-4fc9-9a9a-eee9058b8dfd"/>
+				<parametersMapExpression><![CDATA[$P{SUBREPORT_PARAMETER}]]></parametersMapExpression>
+				<dataSourceExpression><![CDATA[new net.sf.jasperreports.engine.data.JRBeanCollectionDataSource($F{correspondentBeans})]]></dataSourceExpression>
+				<subreportExpression><![CDATA["reports/Correspondent-Item.jasper"]]></subreportExpression>
+			</subreport>
+		</band>
+	</detail>
+</jasperReport>

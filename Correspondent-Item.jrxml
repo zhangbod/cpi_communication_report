@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.6.0.final using JasperReports Library version 6.6.0  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Correspondent-Item" pageWidth="523" pageHeight="842" columnWidth="523" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="d9dc012c-b9b6-4b17-bdcf-a79c8149a029">
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
+	<parameter name="SUBREPORT_DIR" class="java.lang.String"/>
+	<parameter name="SUBREPORT_PARAMETER" class="java.util.Map"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="correspondentName" class="java.lang.String"/>
+	<field name="correspondentContactBeans" class="java.util.List"/>
+	<field name="faxNumber" class="java.lang.String"/>
+	<field name="address" class="java.lang.String"/>
+	<field name="telephoneOffice" class="java.lang.String"/>
+	<field name="webSite" class="java.lang.String">
+		<fieldDescription><![CDATA[webSite]]></fieldDescription>
+	</field>
+	<field name="telephoneAlternate" class="java.lang.String"/>
+	<detail>
+		<band height="20" splitType="Stretch">
+			<textField isStretchWithOverflow="true">
+				<reportElement x="130" y="0" width="320" height="20" forecolor="#10A4E8" uuid="6542d4b1-dd81-4f1d-ada5-459c4c063c0f"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="11" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{correspondentName}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="15">
+			<textField isStretchWithOverflow="true">
+				<reportElement x="130" y="0" width="320" height="15" uuid="a4bf27e0-3b4f-4d11-8805-01f887c77666"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{address}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="15">
+			<staticText>
+				<reportElement x="0" y="0" width="130" height="15" uuid="1d5cc0ed-6734-47db-aab3-b67c5cabb1c6"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="10" isBold="true" isItalic="true" isStrikeThrough="false"/>
+				</textElement>
+				<text><![CDATA[Telephone]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="130" y="0" width="320" height="15" uuid="454b4955-1057-472d-9872-7b57f9de250e"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{telephoneOffice}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="15">
+			<staticText>
+				<reportElement x="0" y="0" width="130" height="15" uuid="8098da5e-4d70-457a-9e4d-209ec16bb2de"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="10" isBold="true" isItalic="true" isStrikeThrough="false"/>
+				</textElement>
+				<text><![CDATA[Fax]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="130" y="0" width="320" height="15" uuid="2f503fee-e019-4141-9019-b33126a0db52"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{faxNumber}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="15">
+			<staticText>
+				<reportElement x="0" y="0" width="130" height="15" uuid="12eac3ed-7377-45dc-8f28-a96fb5e7c9d4"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="10" isBold="true" isItalic="true" isStrikeThrough="false"/>
+				</textElement>
+				<text><![CDATA[Email]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="130" y="0" width="320" height="15" uuid="c085f83b-3e9f-4fc2-bc57-9591f1e5955d"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{telephoneAlternate}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="15">
+			<staticText>
+				<reportElement x="0" y="0" width="130" height="15" uuid="273caab6-f537-4a93-8b9d-1373ce8ebf3b"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="10" isBold="true" isItalic="true" isStrikeThrough="false"/>
+				</textElement>
+				<text><![CDATA[Web Address]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="130" y="0" width="320" height="15" uuid="8a04e5ff-895e-4730-99d2-dca0dc54da96"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{webSite}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="35">
+			<subreport>
+				<reportElement x="0" y="5" width="440" height="30" uuid="f3495f05-1f7e-49b7-9dcf-9417a97d51ad"/>
+				<parametersMapExpression><![CDATA[$P{SUBREPORT_PARAMETER}]]></parametersMapExpression>
+				<dataSourceExpression><![CDATA[new net.sf.jasperreports.engine.data.JRBeanCollectionDataSource($F{correspondentContactBeans})]]></dataSourceExpression>
+				<subreportExpression><![CDATA["reports/Correspondent-subItem.jasper"]]></subreportExpression>
+			</subreport>
+		</band>
+	</detail>
+</jasperReport>

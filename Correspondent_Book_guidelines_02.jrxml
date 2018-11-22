@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.6.0.final using JasperReports Library version 6.6.0  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Correspondent_Book_guidelines_02" pageWidth="595" pageHeight="842" whenNoDataType="AllSectionsNoDetail" columnWidth="495" leftMargin="50" rightMargin="50" topMargin="40" bottomMargin="40" uuid="d129ea41-335f-4f3d-a817-f2dbb7ada0f1">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<title>
+		<band height="737" splitType="Stretch">
+			<staticText>
+				<reportElement x="10" y="37" width="475" height="90" uuid="7449d8b1-e503-4b55-bf2f-130541115cf2"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[Correspondents should be aware that the Club, correspondents and service providers are subject to data protection legislation. Correspondents will routinely receive personal data for claimants and crew members. “Personal data” refers to information about an individual, such as their name, job description, date of birth, email address, mailing address or health-related data. All personal data should be handled and stored carefully and distributed securely and no more widely than necessary.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="127" width="475" height="26" forecolor="#10A4E8" uuid="4c6f72e3-82c6-4c50-a57b-5b2dbefaa0d9"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[D) CLIENT MONEY]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="153" width="475" height="50" uuid="47884d3c-abbf-4a5a-8613-d5336dbf9d2c"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[Where permitted by local regulations, correspondents should operate a designated client bank account for the receipt of funds to pay claims. This account should be separate from the correspondents’ day to day business accounts.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="203" width="475" height="25" forecolor="#10A4E8" uuid="eb1e9139-bbb2-4c94-b838-49dd048fc55f"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[E) PROFESSIONAL LIABILITY/ERRORS AND OMISSIONS INSURANCE]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="228" width="475" height="50" uuid="c7a2749c-d8d2-4fc0-970b-b2cb5312e2a9"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[It is prudent for correspondents to have adequate errors and omissions insurance that provides protection for your services, or those which extend to ownership of an associated company, arising from claims of negligence or failing to perform your professional duties.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="278" width="475" height="22" forecolor="#10A4E8" uuid="33301158-40a6-4437-991b-adb1a309a821"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[3. CONFLICTS OF INTEREST]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="300" width="475" height="140" uuid="71c78fec-a813-45cc-8381-d6a59afdf8e3"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[A conflict check must be undertaken as soon as instructions are received and the Club must be informed of any potential conflict immediately.
+
+The two most common circumstances where a correspondent may encounter a conflict of interest involve an owner and charterer (for example, when they have a cargo problem at a discharge port) where:
+
+a. both parties are entered with the same Club, or
+b. the parties are entered in different Clubs and the correspondent is listed by both Clubs.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="440" width="475" height="23" forecolor="#10A4E8" uuid="d4c82bb1-0d77-4da0-9c55-0677e6b6c7e2"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[4. REPORTING]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="486" width="475" height="244" uuid="b40ecb7c-e023-4406-9011-6d6efdf4ac2d"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[A correspondent may be notified of an incident or claim from a number of sources other than the Club, such as the Member, the ship’s master, local agent, owner, charterer or directly from a claimant or the claimant’s insurer.
+
+For urgent matters (death, serious illness and/or injury, pollution, ship arrest, collision, groundings and service of legal proceedings), the first notification to the Club should be made by both telephone and email to the Club. For non-urgent matters, the first notification should be sent by email. In order to minimize any delay in obtaining a response when sending an email, try to identify the claims team or individual and only use the Club’s general email address if this cannot be done.
+
+Correspondents should be familiar with the risks covered by the Club, as set out in the Rules. Not all Members will be covered for all these risks and so correspondents should seek confirmation of the extent of the cover from the Club. However, the correspondent is recommended not to stop dealing with matters whilst waiting to receive such confirmation. The first notification to the Club should include:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="463" width="475" height="23" forecolor="#10A4E8" uuid="e15c722f-a622-4469-bc30-490dba34e46c"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[A) FIRST NOTIFICATION]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="10" width="475" height="27" forecolor="#10A4E8" uuid="4bd7256b-5c30-4401-b88c-8a804e5ace51"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[C) DATA PROTECTION]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageFooter>
+		<band height="24">
+			<staticText>
+				<reportElement x="10" y="4" width="474" height="20" uuid="a8d19e8c-dde4-4395-94e0-4efe60c4d646"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman"/>
+				</textElement>
+				<text><![CDATA[-2-]]></text>
+			</staticText>
+			<line>
+				<reportElement x="10" y="3" width="475" height="1" forecolor="#10A4E8" uuid="971cdff0-c4ca-4d32-ad60-9e4d2986df6a"/>
+			</line>
+		</band>
+	</pageFooter>
+</jasperReport>
